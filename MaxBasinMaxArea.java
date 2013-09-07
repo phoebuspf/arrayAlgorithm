@@ -125,6 +125,7 @@ public static int trap(int A[], int n) {
 	
 	public static void makePos(byte[] pos, int num)
 	{
+		//Set everything to be in its position
 		int c = num/8;
 		int d = num%8;
 		pos[c]= (byte)(pos[c] | (1<<d));
